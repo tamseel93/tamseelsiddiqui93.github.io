@@ -1,255 +1,301 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portfolio of Tamseel Ahmad Siddiqui, Senior Data Analyst and IT professional specializing in Python, Power BI, Tableau, SQL, MIS, automation, and IT infrastructure." />
-  <meta name="theme-color" content="#07111f" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Tamseel Ahmad Siddiqui - Senior Data Analyst, Business Intelligence, MIS and IT professional." />
+  <meta name="theme-color" content="#ffffff" />
   <title>Tamseel Ahmad Siddiqui | Data, BI & IT Professional</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-  <div class="page-glow glow-one" aria-hidden="true"></div>
-  <div class="page-glow glow-two" aria-hidden="true"></div>
 
+<body>
   <header class="site-header" id="top">
-    <div class="shell nav-wrap">
-      <a class="brand" href="#top" aria-label="Tamseel Ahmad Siddiqui home">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Tamseel Ahmad Siddiqui">
         <span class="brand-mark">TA</span>
-        <span class="brand-text">Tamseel Ahmad Siddiqui</span>
+        <span class="brand-copy">
+          <strong>Tamseel Ahmad Siddiqui</strong>
+          <small>Senior Data Analyst | Business Intelligence | MIS Expert</small>
+        </span>
       </a>
 
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
 
-      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+      <nav class="site-nav" aria-label="Main navigation">
         <a href="#about">About</a>
         <a href="#impact">Impact</a>
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
-        <a class="nav-cta" href="#contact">Contact</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a class="resume-nav" href="Tamseel_Ahmad_Siddiqui_Resume.pdf" target="_blank" rel="noopener">
+          Download Resume <i class="fa-solid fa-download"></i>
+        </a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero shell section-space" aria-labelledby="hero-title">
+    <!-- HERO -->
+    <section class="hero container section-pad">
       <div class="hero-copy reveal">
         <p class="eyebrow">Senior Data Analyst · Business Intelligence · MIS · IT</p>
-        <h1 id="hero-title">Turning complex data and IT systems into <span>clear operational decisions.</span></h1>
-        <p class="hero-lead">I build analytics platforms, automate reporting workflows, manage enterprise IT systems, and create dashboards that help teams act faster with reliable data.</p>
+
+        <h1>
+          Turning complex data<br>
+          and IT systems into<br>
+          <span>clear operational<br>decisions.</span>
+        </h1>
+
+        <div class="blue-line"></div>
+
+        <p class="hero-lead justified">
+          Results-oriented Senior Data Analyst with 9+ years of experience in Data Analytics,
+          Business Intelligence, MIS Development, Process Automation, and IT Infrastructure
+          Management across government transformation programs.
+        </p>
 
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#experience">View experience</a>
-          <a class="btn btn-secondary" href="Tamseel_Ahmad_Siddiqui_Resume.pdf" target="_blank" rel="noopener">View résumé</a>
-        </div>
+          <a class="btn btn-primary" href="#experience">
+            <i class="fa-solid fa-diagram-project"></i> Explore My Work
+          </a>
+          <a class="btn btn-outline" href="Tamseel_Ahmad_Siddiqui_Resume.pdf" target="_blank" rel="noopener">
+            <i class="fa-solid fa-download"></i> Download Resume
+          </a>
 
-        <div class="hero-links" aria-label="Contact links">
-          <a href="mailto:tamseel.siddiqui@gmail.com">tamseel.siddiqui@gmail.com</a>
-          <a href="tel:+919795344323">+91 97953 44323</a>
-          <a href="https://www.linkedin.com/in/tamseel-siddiqui" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="icon-btn" href="https://www.linkedin.com/in/tamseel-siddiqui" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a class="icon-btn" href="mailto:tamseel.siddiqui@gmail.com" aria-label="Email">
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+          <a class="icon-btn" href="tel:+919795344323" aria-label="Phone">
+            <i class="fa-solid fa-phone"></i>
+          </a>
         </div>
       </div>
 
-      <aside class="hero-panel reveal" aria-label="Professional overview">
-        <div class="terminal-top">
-          <span></span><span></span><span></span>
-          <p>profile.json</p>
+      <div class="hero-visual reveal">
+        <div class="photo-wrap">
+          <img src="profile.jpg" alt="Tamseel Ahmad Siddiqui" class="profile-photo">
         </div>
-        <pre><code>{
-  <span class="code-key">"role"</span>: <span class="code-value">"Senior Data Analyst"</span>,
-  <span class="code-key">"experience"</span>: <span class="code-value">"9+ years"</span>,
-  <span class="code-key">"specialties"</span>: [
-    <span class="code-value">"Python"</span>, <span class="code-value">"Power BI"</span>,
-    <span class="code-value">"Tableau"</span>, <span class="code-value">"PostgreSQL"</span>
-  ],
-  <span class="code-key">"focus"</span>: <span class="code-value">"Analytics + Automation + IT"</span>,
-  <span class="code-key">"location"</span>: <span class="code-value">"Lucknow, India"</span>
-}</code></pre>
-        <div class="availability"><span></span> Open to hybrid & remote opportunities</div>
+
+        <div class="experience-badge">
+          <span class="badge-icon"><i class="fa-solid fa-user-tie"></i></span>
+          <div>
+            <strong>9+</strong>
+            <small>Years of Experience</small>
+          </div>
+        </div>
+
+        <div class="dot-pattern" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- IMPACT -->
+    <section class="container metrics-grid reveal" id="impact">
+      <article class="metric-card">
+        <span class="metric-icon"><i class="fa-solid fa-chart-column"></i></span>
+        <div><strong>4,900+</strong><p>Telemetry Stations<br>Monitored</p></div>
+      </article>
+      <article class="metric-card">
+        <span class="metric-icon"><i class="fa-solid fa-location-dot"></i></span>
+        <div><strong>75</strong><p>Districts Across<br>Uttar Pradesh</p></div>
+      </article>
+      <article class="metric-card">
+        <span class="metric-icon"><i class="fa-solid fa-shield-halved"></i></span>
+        <div><strong>100%</strong><p>WIMS Reporting<br>Compliance</p></div>
+      </article>
+      <article class="metric-card">
+        <span class="metric-icon"><i class="fa-solid fa-users"></i></span>
+        <div><strong>100+</strong><p>Government Officers<br>Trained</p></div>
+      </article>
+      <article class="metric-card">
+        <span class="metric-icon"><i class="fa-regular fa-clock"></i></span>
+        <div><strong>80-100%</strong><p>Reduction in Manual<br>Processing Time</p></div>
+      </article>
+    </section>
+
+    <!-- MAIN GRID -->
+    <section class="container content-grid section-pad">
+      <div class="left-column">
+        <article class="panel reveal" id="about">
+          <div class="section-title">
+            <span class="title-icon"><i class="fa-regular fa-user"></i></span>
+            <h2>About Me</h2>
+          </div>
+          <p class="justified">
+            I specialize in the end-to-end analytics lifecycle including ETL pipeline development,
+            data cleaning, exploratory data analysis, KPI dashboards, time-series analysis,
+            reporting automation, data governance, and Monitoring &amp; Evaluation. I build scalable
+            MIS platforms and real-time dashboards that support reliable, data-driven operational
+            decision-making across large government programs.
+          </p>
+        </article>
+
+        <article class="panel reveal" id="experience">
+          <div class="section-title">
+            <span class="title-icon"><i class="fa-solid fa-briefcase"></i></span>
+            <h2>Work Experience</h2>
+          </div>
+
+          <div class="experience-card">
+            <div class="experience-head">
+              <div>
+                <h3>Senior IT Expert &amp; Data Analyst</h3>
+                <h4>Ground Water Department, Government of Uttar Pradesh</h4>
+              </div>
+              <span class="current-pill">Current</span>
+            </div>
+
+            <div class="meta-row">
+              <span><i class="fa-regular fa-calendar"></i> Aug 2018 – Oct 2025</span>
+              <span><i class="fa-solid fa-rotate"></i> 10 Jul 2026 – Present</span>
+              <span><i class="fa-solid fa-location-dot"></i> Lucknow, India</span>
+            </div>
+
+            <ul class="experience-list">
+              <li class="justified">Leading Data Analytics, BI, MIS, automation and IT infrastructure initiatives for groundwater monitoring and management across Uttar Pradesh.</li>
+              <li class="justified">Developed interactive DWLR telemetry analytics solutions using Python (Streamlit) and PostgreSQL for 4,900+ monitoring stations.</li>
+              <li class="justified">Designed KPI dashboards and Monitoring &amp; Evaluation frameworks in Power BI and Tableau for real-time operational visibility across 75 districts.</li>
+              <li class="justified">Automated data cleansing, validation and reporting workflows using Python and Advanced Excel, reducing manual processing time by approximately 80-100%.</li>
+              <li class="justified">Performed time-series analysis and trend modelling on groundwater and rainfall datasets to support strategic and operational decision-making.</li>
+              <li class="justified">Managed data quality, governance standards and reporting integrations with NWIC and WIMS platforms.</li>
+              <li class="justified">Served as State Nodal Officer for DWLR telemetry systems and achieved 100% monthly WIMS reporting compliance.</li>
+              <li class="justified">Managed enterprise IT infrastructure including LAN/WAN, servers, routers, firewalls and VPN environments for 150+ users.</li>
+              <li class="justified">Conducted MIS and data-literacy training programs for 100+ government officers.</li>
+            </ul>
+
+            <div class="current-assignment">
+              <i class="fa-solid fa-circle-info"></i>
+              <p class="justified">
+                Currently working in the same department on <strong>Uttar Pradesh Atal Bhujal Yojana (UP Atal)</strong>
+                with effect from <strong>10 July 2026</strong>.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel reveal" id="projects">
+          <div class="section-title">
+            <span class="title-icon"><i class="fa-solid fa-globe"></i></span>
+            <h2>World Bank Funded Projects</h2>
+          </div>
+
+          <p class="projects-intro justified">
+            Worked on major World Bank-supported water-sector and groundwater programs involving
+            MIS, telemetry, monitoring, data management, analytics, reporting and institutional
+            coordination.
+          </p>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <span class="project-icon"><i class="fa-solid fa-droplet"></i></span>
+              <h3>1. Uttar Pradesh Water Sector Restructuring Project (UPWSRP-II)</h3>
+              <p class="justified">Worked on data management, MIS, monitoring, reporting and evaluation components supporting water-sector transformation.</p>
+            </article>
+
+            <article class="project-card">
+              <span class="project-icon"><i class="fa-solid fa-water"></i></span>
+              <h3>2. National Hydrology Project (NHP)</h3>
+              <p class="justified">Contributed to hydrological data systems, telemetry monitoring, analytics, database workflows and institutional reporting.</p>
+            </article>
+
+            <article class="project-card">
+              <span class="project-icon"><i class="fa-solid fa-people-group"></i></span>
+              <h3>3. Atal Bhujal Yojana (ABHY)</h3>
+              <p class="justified">Worked on groundwater management, community participation, monitoring, data systems and program reporting.</p>
+            </article>
+          </div>
+        </article>
+      </div>
+
+      <aside class="right-column">
+        <article class="panel reveal" id="skills">
+          <div class="section-title">
+            <span class="title-icon"><i class="fa-solid fa-code"></i></span>
+            <h2>Skills</h2>
+          </div>
+
+          <div class="skill-group">
+            <h3>Languages &amp; Analytics</h3>
+            <div class="chips">
+              <span>Python</span><span>Pandas</span><span>NumPy</span><span>SQL (PostgreSQL)</span>
+              <span>Advanced Excel</span><span>VBA</span><span>Power Query</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3>BI &amp; Visualization</h3>
+            <div class="chips">
+              <span>Power BI</span><span>Tableau</span><span>KPI Dashboards</span><span>Data Visualization</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3>Data Engineering &amp; Management</h3>
+            <div class="chips">
+              <span>ETL Pipelines</span><span>Data Cleaning</span><span>Data Transformation</span>
+              <span>Data Validation</span><span>Data Quality</span><span>CSV Processing</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3>Automation &amp; MIS</h3>
+            <div class="chips">
+              <span>Workflow Automation</span><span>MIS Development</span><span>Dashboard Automation</span>
+              <span>Process Improvement</span><span>M&amp;E Frameworks</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3>IT Infrastructure</h3>
+            <div class="chips">
+              <span>LAN / WAN</span><span>Servers</span><span>VPN</span><span>Firewall</span><span>Networking</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel reveal" id="contact">
+          <div class="section-title">
+            <span class="title-icon"><i class="fa-regular fa-envelope"></i></span>
+            <h2>Contact Me</h2>
+          </div>
+
+          <div class="contact-list">
+            <a href="mailto:tamseel.siddiqui@gmail.com">
+              <span class="contact-icon email"><i class="fa-solid fa-envelope"></i></span>
+              tamseel.siddiqui@gmail.com
+            </a>
+            <a href="tel:+919795344323">
+              <span class="contact-icon phone"><i class="fa-solid fa-phone"></i></span>
+              +91-9795344323
+            </a>
+            <a href="https://www.linkedin.com/in/tamseel-siddiqui" target="_blank" rel="noopener">
+              <span class="contact-icon linkedin"><i class="fa-brands fa-linkedin-in"></i></span>
+              linkedin.com/in/tamseel-siddiqui
+            </a>
+            <p>
+              <span class="contact-icon location"><i class="fa-solid fa-location-dot"></i></span>
+              Lucknow, Uttar Pradesh, India
+            </p>
+          </div>
+        </article>
       </aside>
-    </section>
-
-    <section class="metrics-wrap shell reveal" id="impact" aria-label="Career impact">
-      <article class="metric-card">
-        <strong>4,900+</strong>
-        <span>Telemetry stations monitored</span>
-      </article>
-      <article class="metric-card">
-        <strong>75</strong>
-        <span>Districts covered</span>
-      </article>
-      <article class="metric-card">
-        <strong>100%</strong>
-        <span>Monthly WIMS reporting compliance</span>
-      </article>
-      <article class="metric-card">
-        <strong>100+</strong>
-        <span>Government officers trained</span>
-      </article>
-    </section>
-
-    <section class="shell section-space split" id="about">
-      <div class="section-heading reveal">
-        <p class="eyebrow">About</p>
-        <h2>Analytics depth with hands-on IT execution.</h2>
-      </div>
-      <div class="about-copy reveal">
-        <p>Results-oriented Senior Data Analyst with 9+ years of experience across data analytics, business intelligence, MIS development, process automation, and IT infrastructure management in enterprise and government transformation programs.</p>
-        <p>My work spans the full analytics lifecycle: ETL pipelines, data cleaning, exploratory analysis, KPI dashboards, time-series analysis, governance, reporting automation, and stakeholder reporting. I also bring practical experience with servers, LAN/WAN, VPNs, routers, firewalls, and large-scale monitoring platforms.</p>
-        <div class="tag-row" aria-label="Areas of impact">
-          <span>Data Analytics</span><span>Business Intelligence</span><span>MIS</span><span>Automation</span><span>Data Governance</span><span>M&amp;E</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-surface" id="experience">
-      <div class="shell section-space">
-        <div class="section-heading compact reveal">
-          <p class="eyebrow">Experience</p>
-          <h2>Building systems that improve visibility, speed, and reliability.</h2>
-        </div>
-
-        <div class="timeline">
-          <article class="timeline-item reveal">
-            <div class="timeline-meta">
-              <span>Aug 2018 – Oct 2025</span>
-              <small>Lucknow, India</small>
-            </div>
-            <div class="timeline-content">
-              <p class="company">Ground Water Department, Government of Uttar Pradesh</p>
-              <h3>Senior IT Expert &amp; Data Analyst</h3>
-              <ul>
-                <li>Engineered an interactive DWLR telemetry analytics web application using Python (Streamlit) and PostgreSQL for 4,900+ statewide stations.</li>
-                <li>Designed KPI dashboards and Monitoring &amp; Evaluation frameworks in Power BI and Tableau for operational visibility across 75 districts.</li>
-                <li>Automated data cleansing, validation, and reporting workflows using Python and Advanced Excel, reducing manual processing time dramatically.</li>
-                <li>Performed time-series analysis and trend modelling on groundwater and rainfall datasets for strategic decision-making.</li>
-                <li>Managed data quality, governance, and reporting integrations with NWIC and WIMS platforms.</li>
-                <li>Served as State Nodal Officer for DWLR telemetry systems and achieved 100% monthly WIMS reporting compliance.</li>
-                <li>Managed IT infrastructure for 150+ users across LAN/WAN, servers, routers, firewalls, and VPN environments.</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="timeline-item reveal">
-            <div class="timeline-meta">
-              <span>Jan 2017 – May 2018</span>
-              <small>Lucknow, India</small>
-            </div>
-            <div class="timeline-content">
-              <p class="company">Geovision Private Limited</p>
-              <h3>System Analyst</h3>
-              <ul>
-                <li>Designed automated Excel reporting templates and workflow systems, improving reporting turnaround time by 30%.</li>
-                <li>Maintained network infrastructure, performed troubleshooting, and supported uninterrupted IT operations.</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="timeline-item reveal">
-            <div class="timeline-meta">
-              <span>Jan 2017 – Jun 2017</span>
-              <small>Lucknow, India</small>
-            </div>
-            <div class="timeline-content">
-              <p class="company">Softpro India Pvt. Ltd.</p>
-              <h3>Project Intern · Software Development</h3>
-              <ul>
-                <li>Supported SDLC activities for the Medicounsel USA project including requirement analysis, testing, and documentation.</li>
-                <li>Identified and resolved critical QA defects and maintained lifecycle documentation for improved stakeholder visibility.</li>
-              </ul>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="shell section-space" id="skills">
-      <div class="section-heading compact reveal">
-        <p class="eyebrow">Technical Skills</p>
-        <h2>A practical toolkit across analytics, engineering, BI, and infrastructure.</h2>
-      </div>
-
-      <div class="skills-grid">
-        <article class="skill-card reveal">
-          <span class="skill-number">01</span>
-          <h3>Languages &amp; Analytics</h3>
-          <p>Python, Pandas, NumPy, SQL, Advanced Excel, VBA Macros, Power Query</p>
-        </article>
-        <article class="skill-card reveal">
-          <span class="skill-number">02</span>
-          <h3>BI &amp; Visualization</h3>
-          <p>Power BI, Tableau, KPI Dashboards, Data Visualization, Reporting Automation</p>
-        </article>
-        <article class="skill-card reveal">
-          <span class="skill-number">03</span>
-          <h3>Data Engineering</h3>
-          <p>ETL Pipelines, Data Cleaning, Transformation, Validation, Data Quality Control, CSV Processing</p>
-        </article>
-        <article class="skill-card reveal">
-          <span class="skill-number">04</span>
-          <h3>Automation &amp; MIS</h3>
-          <p>Workflow Automation, MIS Development, Dashboard Automation, Process Improvement, M&amp;E Frameworks</p>
-        </article>
-        <article class="skill-card reveal">
-          <span class="skill-number">05</span>
-          <h3>IT Infrastructure</h3>
-          <p>LAN/WAN Administration, Windows Server, Linux, Routers, Switches, Firewall, VPN</p>
-        </article>
-        <article class="skill-card reveal">
-          <span class="skill-number">06</span>
-          <h3>Platforms &amp; Systems</h3>
-          <p>WIMS, NWIC, Telemetry Monitoring Systems, Web Portals, Mobile Applications</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section-surface" id="education">
-      <div class="shell section-space education-layout">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Education</p>
-          <h2>Computer applications foundation, strengthened by years of applied systems work.</h2>
-        </div>
-        <div class="education-cards reveal">
-          <article>
-            <span>2015 – 2017</span>
-            <h3>Master of Computer Applications (MCA)</h3>
-            <p>Integral University</p>
-          </article>
-          <article>
-            <span>2012 – 2015</span>
-            <h3>Bachelor of Computer Applications (BCA)</h3>
-            <p>Integral University</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="shell section-space" id="contact">
-      <div class="contact-card reveal">
-        <div>
-          <p class="eyebrow">Contact</p>
-          <h2>Interested in data, BI, MIS, automation, or IT transformation work?</h2>
-          <p>Based in Lucknow, Uttar Pradesh. Open to hybrid and remote opportunities.</p>
-        </div>
-        <div class="contact-actions">
-          <a class="btn btn-primary" href="mailto:tamseel.siddiqui@gmail.com">Email me</a>
-          <a class="btn btn-secondary" href="https://www.linkedin.com/in/tamseel-siddiqui" target="_blank" rel="noopener">LinkedIn</a>
-        </div>
-      </div>
     </section>
   </main>
 
   <footer>
-    <div class="shell footer-wrap">
-      <p>© <span id="year"></span> Tamseel Ahmad Siddiqui</p>
-      <a href="#top">Back to top ↑</a>
-    </div>
+    <p>© <span id="year"></span> Tamseel Ahmad Siddiqui. All rights reserved.</p>
+    <a href="#top" class="back-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
   </footer>
 
   <script src="script.js"></script>
