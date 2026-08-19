@@ -3,50 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamseel Ahmad Siddiqui | Senior Data Analyst</title>
+    <title>Tamseel Ahmad Siddiqui | Senior IT & Data Analyst</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Tamseel Ahmad Siddiqui</h1>
-        <p>Senior Data Analyst | Business Intelligence | Process Automation</p>
+    <header class="animate-fade-in-down">
+        <div class="header-content">
+            <h1>Tamseel Ahmad Siddiqui</h1>
+            <p>Senior Data Analyst | Business Intelligence | MIS Expert</p>
+        </div>
     </header>
 
     <div class="container">
-        <section id="about">
+        <!-- Banner Section -->
+        <section class="banner-section animate-fade-in-up" style="animation-delay: 0.1s;">
+            <img src="banner.jfif" alt="Tamseel Ahmad Siddiqui Banner" class="hero-banner">
+        </section>
+
+        <section id="about" class="animate-fade-in-up" style="animation-delay: 0.3s;">
             <h2>About Me</h2>
             <p>Results-oriented Senior Data Analyst with 9+ years of experience in Data Analytics, Business Intelligence, MIS Development, and IT Infrastructure Management. I specialize in the end-to-end analytics lifecycle, from ETL pipeline development to building KPI dashboards that drive operational decision-making.</p>
         </section>
 
-        <section id="skills">
+        <section id="skills" class="animate-fade-in-up" style="animation-delay: 0.5s;">
             <h2>Core Technical Skills</h2>
-            <ul>
-                <li><strong>Languages & Analytics:</strong> Python (Pandas, NumPy, Streamlit), SQL (PostgreSQL), Advanced Excel</li>
-                <li><strong>BI & Visualization:</strong> Power BI, Tableau</li>
-                <li><strong>Data Engineering:</strong> ETL Pipelines, Data Governance, Time-Series Analysis</li>
-            </ul>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Languages & Analytics</h3>
+                    <p>Python (Pandas, NumPy, Streamlit), SQL (PostgreSQL), Advanced Excel</p>
+                </div>
+                <div class="skill-card">
+                    <h3>BI & Visualization</h3>
+                    <p>Power BI, Tableau</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Data Engineering</h3>
+                    <p>ETL Pipelines, Data Governance, Time-Series Analysis</p>
+                </div>
+            </div>
         </section>
 
-        <section id="experience">
+        <section id="experience" class="animate-fade-in-up" style="animation-delay: 0.7s;">
             <h2>Professional Highlights</h2>
-            <h3>Senior IT Expert & Data Analyst | Ground Water Department, UP</h3>
-            <p>Engineered an interactive DWLR telemetry analytics web application using Python and PostgreSQL to monitor over 4,900 state-wide stations. Automated reporting workflows, reducing manual processing time by up to 100%, and achieved 100% WIMS reporting compliance as State Nodal Officer.</p>
+            <div class="job-card">
+                <h3>Senior IT Expert & Data Analyst</h3>
+                <h4>Ground Water Department, UP</h4>
+                <p>Engineered an interactive DWLR telemetry analytics web application using Python and PostgreSQL to monitor over 4,900 state-wide stations. Automated reporting workflows, reducing manual processing time by up to 100%, and achieved 100% WIMS reporting compliance as State Nodal Officer.</p>
+            </div>
         </section>
 
-        <section id="contact">
+        <section id="contact" class="animate-fade-in-up" style="animation-delay: 0.9s;">
             <h2>Contact Me</h2>
-            <p><strong>Email:</strong> tamseel.siddiqui@gmail.com | <strong>Phone:</strong> +91-9795344323</p>
+            <div class="contact-info">
+                <p>📧 <strong>Email:</strong> tamseel.siddiqui@gmail.com</p>
+                <p>📞 <strong>Phone:</strong> +91-9795344323</p>
+                <p>🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/tamseel-siddiqui" target="_blank">linkedin.com/in/tamseel-siddiqui</a></p>
+            </div>
             
             <form action="https://formspree.io/f/mjybpdld" method="POST" class="contact-form">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" required placeholder="Your Good Name">
                 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" required placeholder="your.email@example.com">
                 
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+                <textarea id="message" name="message" rows="4" required placeholder="How can I help you?"></textarea>
                 
                 <button type="submit">Send Message</button>
             </form>
