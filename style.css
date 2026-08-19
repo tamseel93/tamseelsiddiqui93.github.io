@@ -2,7 +2,7 @@
 :root {
     --primary-color: #0b5394;
     --secondary-color: #2980b9;
-    --background: #f4f7f6;
+    --background: #e9eff1;
     --text-dark: #2c3e50;
     --text-light: #ecf0f1;
 }
@@ -60,43 +60,44 @@ header p {
     font-weight: 300;
 }
 
-/* Main Container */
+/* Main Container - Adjusted for Perfect Alignment */
 .container {
-    max-width: 1000px;
-    margin: -30px auto 2rem;
-    padding: 0 15px;
+    max-width: 950px;
+    margin: -40px auto 2rem;
+    padding: 0 20px;
     position: relative;
     z-index: 10;
 }
 
-/* Banner Image */
-.hero-banner {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    display: block;
-    transition: transform 0.3s ease;
-}
-
-.hero-banner:hover {
-    transform: scale(1.02);
-}
-
+/* Banner Image - Fixed Alignment */
 .banner-section {
     background: transparent !important;
     box-shadow: none !important;
     padding: 0 !important;
+    border-top: none !important;
+    margin-bottom: 25px !important;
+    width: 100%;
 }
 
-/* Sections */
+.hero-banner {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    display: block;
+    object-fit: cover;
+}
+
+/* Sections - Matching Banner Width */
 section {
     background: #ffffff;
-    margin-bottom: 2rem;
+    margin-bottom: 25px;
     padding: 2.5rem;
-    border-radius: 12px;
+    border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
     border-top: 4px solid var(--primary-color);
+    width: 100%;
 }
 
 h2 {
@@ -176,6 +177,7 @@ h2 {
     border-radius: 6px;
     font-size: 1rem;
     transition: border-color 0.3s;
+    width: 100%;
 }
 
 .contact-form input:focus, .contact-form textarea:focus {
@@ -214,5 +216,5 @@ footer {
 @media (max-width: 768px) {
     header h1 { font-size: 2rem; }
     section { padding: 1.5rem; }
-    .container { margin-top: -15px; }
+    .container { margin-top: -15px; padding: 0 15px; }
 }
